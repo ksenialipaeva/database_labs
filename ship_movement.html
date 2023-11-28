@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Main</title>
+    </head>
+
+    <style>
+
+    .field{
+        background-color: darkgrey;
+        width: 800px;
+        height: 600px;
+        position:relative;
+    }   
+
+    .field>div{
+        position:absolute;
+    }
+
+    #ship{
+        top: 100px;
+        left: 100px;
+        width:80px;
+        height:20px;
+        background-color: black;
+    }
+
+    </style>
+
+    <script>
+        function f1(){
+            var a = document.getElementById("ship");
+            a.style.left = "200px";
+        }
+
+        function f2(){
+            var a = document.getElementById("ship");
+            a.style.display = "none";
+        }
+    </script>
+
+    <body>
+    <button onclick="f1()">Передвинуть корабль</button>
+    <button onclick="f2()">Скрыть корабль</button>
+    <div class="field">
+        <div id="ship"></div>
+    </div>
+    </body>
+</html>
