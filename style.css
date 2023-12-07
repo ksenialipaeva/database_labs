@@ -1,6 +1,6 @@
 @media (min-width: 1100px) {
 body{
-    font-family: "Nunito Sans";
+    font-family: "Montserrat";
 }
 
 .avatar{
@@ -47,16 +47,6 @@ h2{
     background-color: rgb(255, 255, 255);
 }
 
-.first_row{
-    display: flex;
-    flex-direction: column;
-}
-
-.second_row{
-    display: flex;
-    flex-direction: column;
-}
-
 .projects{
     display: flex;
     flex-direction: column;
@@ -69,7 +59,7 @@ h2{
     }
 
     body{
-        font-family: "Nunito Sans";
+        font-family: "Montserrat";
     }
 
     .avatar{
